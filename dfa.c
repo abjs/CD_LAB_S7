@@ -63,7 +63,18 @@ void q3(char c)
 }
 void q4(char c)
 {
-    NextState = -1;
+    if (c == 'a')
+    {
+        NextState = 3;
+    }
+    else if (c == 'b')
+    {
+        NextState = 4;
+    }
+    else
+    {
+        NextState = -1;
+    }
 }
 
 int isAccepted(char str[])
@@ -95,8 +106,8 @@ int main()
     printf("Enter The Input String:");
     gets(str);
     if (isAccepted(str))
-        printf("String ACCEPTED");
+        printf("String ACCEPTED\n");
     else
-        printf("String NOT ACCEPTED");
+        printf("String NOT ACCEPTED\n");
     return 0;
 }
