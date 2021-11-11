@@ -1,0 +1,4 @@
+int 
+scanf
+printf
+--END--
