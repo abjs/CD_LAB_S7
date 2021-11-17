@@ -1,6 +1,6 @@
 void main()
 {
-int a , b , c , d ;
-a = b + c ;
-d = c / a ;
+int Abin , F_Name , C_Name_25 , Data25=60;
+printf("%d",Data25);
+
 }
