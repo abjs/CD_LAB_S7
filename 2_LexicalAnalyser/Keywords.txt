@@ -1,4 +1,6 @@
 int 
+for
+while
+if
 scanf
 printf
---END--
