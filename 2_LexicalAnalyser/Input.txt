@@ -1,6 +1,10 @@
 void main()
 {
-int Abin , F_Name , C_Name_25 , Data25=60;
-printf("%d",Data25);
-
+int a , b;
+printf("Enter a :");
+scanf("%d",&a);
+printf("Enter b :");
+scanf("%d",&b);
+sum = a + b ;
+printf("sum of %d and %d is %d", a , b , sum);
 }

@@ -1,6 +1,7 @@
-int 
+int
 for
 while
 if
 scanf
 printf
+void 
